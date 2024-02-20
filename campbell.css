@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("fonts/CascadiaCode.woff2") format('woff2');
+}
+body {
+font-family: 'Cascadia Code', sans-serif;
+color: #F2F2F2;
+background-color: #0C0C0C;
+}
+.logo {
+    width: 15px;
+    height: 15px;
+    vertical-align: -10%;
+}
+a {
+    color: #3B78FF;
+}
+a:visited {
+    color: #B4009E;
+}

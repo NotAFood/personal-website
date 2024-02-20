@@ -3,4 +3,5 @@ RewriteEngine On
 RewriteRule ^(.*/)?\.git - [F,L]
 
 # Custom error pages
-ErrorDocument 403 /error403.html
+ErrorDocument 403 https://ocf.berkeley.edu/~cael/error403.html
+ErrorDocument 404 https://ocf.berkeley.edu/~cael/error404.html
