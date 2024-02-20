@@ -1,5 +1,6 @@
 # Deny access to .git directory
-<DirectoryMatch "^\.git">
-  Order deny,allow
-  Deny from all
-</DirectoryMatch>
+RewriteEngine On
+RewriteRule ^(.*/)?\.git - [F,L]
+
+# Custom error pages
+ErrorDocument 403 /error403.html
